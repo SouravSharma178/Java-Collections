@@ -35,6 +35,7 @@ al.remove(1);
 System.out.println("After removing elements in ArrayList "+al);
 
 // 4.add elements at a particular index
+// add method adds elements to the arraylist without replacing the current elements in the list.Hence it will shift all the elements to the right hand side
 al.add(2,"Python");
 System.out.println("The list after adding Python at index 2 is "+al); //[100, 15.5, Python, A, true]
 
@@ -43,6 +44,7 @@ System.out.println("The element we were searching for at index 3 is "+al.get(3))
 
 
 // 6.set method(change a particular value)
+// set method will replace the element at the particular index we have specified
 al.set(2,"Java");
 System.out.println("The list after changing is "+al); //[100, 15.5, Java, A, true]
 
